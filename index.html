@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HVDC Solutions | Powering the Future</title>
+    <style>
+        /* Basic CSS Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .navbar {
+            background-color: #003366;
+            padding: 1rem;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('hvdchero.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 2rem;
+        }
+        .section {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#technology">Technology</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <h1>High Voltage Direct Current (HVDC)</h1>
+        <p>Transmitting Energy Efficiently Across the Globe</p>
+        <button>Explore Solutions</button>
+    </div>
+
+    <!-- Technology Section -->
+    <div class="section" id="technology">
+        <div class="card">
+            <h2>Why HVDC?</h2>
+            <p>Transmit electricity over <strong>long distances</strong> with minimal losses, connect asynchronous grids, and integrate renewable energy sources.</p>
+            <ul>
+                <li>Lower Energy Losses</li>
+                <li>Grid Stability</li>
+                <li>Renewable Integration</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>How It Works</h2>
+            <img src="hvdc-diagram.png" alt="HVDC Process" style="width:100%; max-width:600px;">
+            <p>1. Convert AC to DC ➔ 2. Transmit via Cables ➔ 3. Convert DC back to AC</p>
+        </div>
+    </div>
+
+    <!-- Projects Showcase -->
+    <div class="section" id="projects">
+        <h2>Global Projects</h2>
+        <div class="card">
+            <h3>North Sea Wind Farms</h3>
+            <p>Connecting offshore wind energy to mainland Europe.</p>
+        </div>
+        <div class="card">
+            <h3>Cross-Border Interconnectors</h3>
+            <p>Linking power grids between nations for energy sharing.</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section" id="contact">
+        <div class="card">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name" required><br>
+                <input type="email" placeholder="Email" required><br>
+                <textarea placeholder="Message" rows="4" required></textarea><br>
+                <button type="submit">Send Inquiry</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2023 HVDC Solutions. All rights reserved.</p>
+    </div>
+</body>
+</html>
